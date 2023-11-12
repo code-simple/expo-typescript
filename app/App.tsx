@@ -4,19 +4,10 @@ import { Link } from "expo-router";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Link href="screens/Home">
-        <Text>Go Home Bro</Text>
+    <View className="flex-1 bg-green-200 justify-center items-center">
+      <Link href="screens/Home" className="">
+        <Text className="">Go Home Bro</Text>
       </Link>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

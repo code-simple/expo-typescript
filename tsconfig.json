@@ -3,11 +3,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "components/*": ["./app/components/*"],
-      "screens/*": ["./app/screens/*"],
-      "images/*": ["./app/assets/images/*"],
-      "routes/*": ["./app/routes/*"],
-      "assets/*": ["./app/assets/*"]
+      "components": ["./app/components/*"],
+      "screens": ["./app/screens/"],
+      "images": ["./app/assets/images/*"],
+      "routes": ["./app/routes/*"],
+      "assets": ["./app/assets/*"]
       // ... other paths if necessary
     },
     "typeRoots": ["./typings", "./node_modules/@types"],

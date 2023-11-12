@@ -1,5 +1,5 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { Home, About } from "../screens";
+import { Home, About } from "screens";
 
 export default function HomeStack() {
   const RootStack = createStackNavigator();
